@@ -1,0 +1,104 @@
+/* detail.css */
+
+/* Example CSS rules based on the classes used in your HTML */
+
+.py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.border-b {
+    border-bottom-width: 1px;
+}
+
+.border-gray-200 {
+    border-color: #e5e7eb;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.hover\:text-gray-500:hover {
+    color: #6b7280;
+}
+
+.bg-teal-500 {
+    background-color: #38b2ac;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.rounded-xl {
+    border-radius: 0.75rem;
+}
+
+.hover\:bg-teal-700:hover {
+    background-color: #2c7a7b;
+}
+
+.bg-gray-500 {
+    background-color: #6b7280;
+}
+
+.hover\:bg-gray-700:hover {
+    background-color: #4a5568;
+}
+
+.bg-gray-800 {
+    background-color: #2d3748;
+}
+
+.text-gray-400 {
+    color: #cbd5e0;
+}
+
+.text-gray-500 {
+    color: #a0aec0;
+}
+
+.text-teal-500 {
+    color: #38b2ac;
+}
+
+.hover\:text-teal-700:hover {
+    color: #2c7a7b;
+}
+
+.mt-6 {
+    margin-top: 1.5rem;
+}
+
